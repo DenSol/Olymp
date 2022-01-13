@@ -3,19 +3,34 @@ body {
     font-family: 'Roboto', sans-serif;
     }
 
-header {
+.big {
     font-size: 35px;
     text-align: center;
     margin: 0 auto;
+    color: rgb(30, 45, 133);
 }
 
+.questions {
+    font-size: 17px;
+    margin: 20px auto;
+    color: rgb(8, 4, 196);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .block1 {
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
 .block2 {
-    padding: 20px 10px;
+  padding: 10px 10px;
 }
+
+  .box3 {
+    padding: 10px 10px;
+  }
 
 .box1 {
     display: flex;
@@ -69,10 +84,10 @@ header {
     border-width: thin;
 }
 
-.correct {
-    border: 2px solid green;
+.answer7 {
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(139, 138, 146);
+    border-width: thin;
+    
 }
-
-.incorrect {
-    border: 2px solid red;
-}      
